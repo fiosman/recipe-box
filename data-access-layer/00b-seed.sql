@@ -7,7 +7,7 @@
 -- Set the role to 'recipe_box_app' so the tables created will be owned by that
 -- user.
 
--- YOUR CODE HERE
+SET ROLE 'recipe_box_app';
 
 
 
