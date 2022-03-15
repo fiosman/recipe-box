@@ -16,4 +16,4 @@
 -- WHERE ... (here you'll use the $1 parameter)
 
 
--- YOUR CODE HERE
+select id, title, created, updated from recipes where id = $1;
