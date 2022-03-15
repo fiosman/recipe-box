@@ -16,4 +16,4 @@
 -- RETURNING id (this will return the id of the new recipe, don't forget it!)
 
 
--- YOUR CODE HERE
+insert into "recipes" ("title") values ($1) returning id; 
