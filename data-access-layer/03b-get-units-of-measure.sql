@@ -11,5 +11,4 @@
 -- FROM ...
 -- ORDER BY ...
 
-
--- YOUR CODE HERE
+select "id", "name" from "units_of_measure" order by "name";
