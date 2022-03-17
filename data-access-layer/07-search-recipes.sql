@@ -22,4 +22,4 @@
 -- https://www.postgresql.org/docs/current/functions-matching.html
 
 
--- YOUR CODE HERE
+select id, title, updated from recipes where title ilike $1;
